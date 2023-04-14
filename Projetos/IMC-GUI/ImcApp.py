@@ -1,5 +1,8 @@
 import PySimpleGUI as sg
 from funcaoApp import calculo_imc
+
+sg.theme('DarkBlue10')
+
 desenho =[
     [sg.Text('Peso:'), sg.InputText(size=(10, 1), key='-PESO-')],
     [sg.Text('Altura:'), sg.InputText(size=(10, 1), key='-ALTURA-')],
