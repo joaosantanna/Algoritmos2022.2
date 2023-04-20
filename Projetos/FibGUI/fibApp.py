@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 from funcoesApp import fibonacci
-
+sg.theme('BlueMono')
 desenho =[
     [sg.Text('Calculo de termos da serie de Fibonacci')],
     [sg.Text('numero de termos:'), sg.InputText(size=(10, 1), key='-NUMERO-')],
